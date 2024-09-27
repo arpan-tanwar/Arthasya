@@ -5,13 +5,15 @@ import Footer from "@/components/Footer";
 function HomePage() {
   return (
     <>
-      <Header />
-      <br />
-      <Home />
-      <br />
-      <ContactUs />
-      <br />
-      <Footer />
+      <div className="bg-neutral-100">
+        <Header />
+        <br />
+        <Home />
+        <br />
+        <ContactUs />
+        <br />
+        <Footer />
+      </div>
     </>
   );
 }
