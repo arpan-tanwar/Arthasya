@@ -1,5 +1,10 @@
+import HomePage from "./layouts/HomePage";
 function App() {
-  return <></>;
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 }
 
 export default App;
