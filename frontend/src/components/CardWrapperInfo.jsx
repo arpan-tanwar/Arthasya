@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
-function CardWrapperInfo({ title, content, icon }) {
+function CardWrapperInfo({ title, content, icon, link }) {
   return (
     <>
       <Card>
@@ -12,6 +13,11 @@ function CardWrapperInfo({ title, content, icon }) {
         </CardHeader>
         <CardContent>
           <p>{content}</p>
+          {link && (
+            <Button variant="link" className="mt-2 p-0">
+              {link}
+            </Button>
+          )}
         </CardContent>
       </Card>
     </>

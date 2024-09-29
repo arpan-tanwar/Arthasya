@@ -1,12 +1,13 @@
 import Header from "@/components/Header";
-import Home from "@/pages/Home";
+import About from "@/pages/About";
 import Footer from "@/components/Footer";
-function HomePage() {
+
+function AboutPage() {
   return (
     <>
       <Header />
       <br />
-      <Home />
+      <About />
       <br />
 
       <Footer />
@@ -14,4 +15,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default AboutPage;

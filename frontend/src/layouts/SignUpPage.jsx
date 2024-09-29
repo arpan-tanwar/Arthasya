@@ -1,17 +1,17 @@
 import Header from "@/components/Header";
-import Home from "@/pages/Home";
+import SignUp from "@/components/SignUp";
 import Footer from "@/components/Footer";
-function HomePage() {
+
+function SignUpPage() {
   return (
     <>
       <Header />
       <br />
-      <Home />
+      <SignUp />
       <br />
-
       <Footer />
     </>
   );
 }
 
-export default HomePage;
+export default SignUpPage;

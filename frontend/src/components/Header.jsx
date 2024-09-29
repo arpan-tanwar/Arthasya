@@ -1,34 +1,58 @@
 import { Button } from "@/components/ui/button";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <header className="flex justify-between px-4 py-4 ">
-        <h1 className="text-3xl font-bold">Arthasya</h1>
+        <Link to="/">
+          <h1 className="text-3xl font-bold">Arthasya</h1>
+        </Link>
         <div className="flex">
-          <a href="">
-            <Button variant="link" className="text-base">
+          <Link to="/">
+            <Button
+              variant="link"
+              className={
+                useLocation().pathname === "/"
+                  ? "text-base underline"
+                  : "text-base"
+              }
+            >
               Home
             </Button>
-          </a>
-          <a href="">
-            <Button variant="link" className="text-base">
+          </Link>
+          <Link to="/about">
+            <Button
+              variant="link"
+              className={
+                useLocation().pathname === "/about"
+                  ? "text-base underline"
+                  : "text-base"
+              }
+            >
               About
             </Button>
-          </a>
-          <a href="">
-            <Button variant="link" className="text-base">
-              Contact
+          </Link>
+          <Link to="/support">
+            <Button
+              variant="link"
+              className={
+                useLocation().pathname === "/support"
+                  ? "text-base underline"
+                  : "text-base"
+              }
+            >
+              Support
             </Button>
-          </a>
+          </Link>
         </div>
         <div>
-          <a href="" className="mr-1">
+          <Link to="/login" className="mr-1">
             <Button variant="outline">Login</Button>
-          </a>
-          <a href="" className="ml-1">
+          </Link>
+          <Link to="/signup" className="ml-1">
             <Button>Sign Up</Button>
-          </a>
+          </Link>
         </div>
       </header>
 

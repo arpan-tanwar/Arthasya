@@ -4,6 +4,7 @@ import CardWrapperUser from "@/components/CardWrapperUser";
 import { CheckCircle, TrendingUp, Shield, BarChart2 } from "lucide-react";
 import placeholder from "../assets/placeholder.svg";
 import KeyFeatures from "@/components/KeyFeatures";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -18,9 +19,11 @@ function Home() {
           </p>
           <div className="flex justify-center space-x-4">
             <Button size="lg">Get Started</Button>
-            <Button variant="outline" size="lg">
-              Learn More
-            </Button>
+            <Link to="/about">
+              <Button variant="outline" size="lg">
+                Learn More
+              </Button>
+            </Link>
           </div>
         </section>
 
@@ -154,11 +157,11 @@ function Home() {
           </h2>
           <div className="grid md:grid-cold-3 gap-8">
             <CardWrapperUser
-              firstContent={`"TradePro has revolutionized my trading experience. The real-time data and analytics have helped me make more informed decisions."`}
+              firstContent={`"Arthasya has revolutionized my trading experience. The real-time data and analytics have helped me make more informed decisions."`}
               secoondContent={`- Updesh, Day Trader`}
             />
             <CardWrapperUser
-              firstContent={`"As a beginner, I found TradePro's educational resources invaluable. The platform is intuitive and has helped me gain confidence in trading."`}
+              firstContent={`"As a beginner, I found Arthasya's educational resources invaluable. The platform is intuitive and has helped me gain confidence in trading."`}
               secoondContent={`- Vishal, Novice Investor`}
             />
             <CardWrapperUser
@@ -173,7 +176,7 @@ function Home() {
             Ready to Start Trading?
           </h2>
           <p className="mb-8">
-            Join thousands of traders who have already discovered the TradePro
+            Join thousands of traders who have already discovered the Arthasya
             advantage.
           </p>
           <Button size="lg">Create Your Free Account</Button>
