@@ -1,10 +1,11 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ChevronRight, Users, Shield, BarChart } from "lucide-react";
+import { Users, Shield, BarChart } from "lucide-react";
 import placeholder from "../assets/placeholder.svg";
 import photo from "../assets/photo.jpg";
 import CardWrapperInfo from "@/components/CardWrapperInfo";
+import OurMission from "@/components/OurMission";
 
 function About() {
   return (
@@ -38,10 +39,7 @@ function About() {
               experts working together to navigate the complex world of
               financial markets.
             </p>
-            <Button variant="outline" className="mt-4">
-              Learn More About Our Mission
-              <ChevronRight className="ml-2 h-4 w-4" />
-            </Button>
+            <OurMission />
           </div>
           <div className="relative h-[400px]">
             <img
