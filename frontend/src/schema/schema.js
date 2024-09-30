@@ -11,3 +11,27 @@ export const contactSchema = z.object({
     message: "Message must be at least 5 characters.",
   }),
 });
+
+export const loginSchema = z.object({
+  email: z.string().email({
+    message: "Please enter a valid email address",
+  }),
+  password: z.string().min(5, {
+    message: "Password must be at least 5 characters.",
+  }),
+});
+
+export const signupSchema = z.object({
+  fname: z.string().min(1, {
+    message: "First name must be at least 1 character",
+  }),
+  lname: z.string().min(1, {
+    message: "Last name must be at least 1 character",
+  }),
+  email: z.string().email({
+    message: "Please enter a valid email address",
+  }),
+  password: z.string().min(5, {
+    message: "Password must be at least 5 characters.",
+  }),
+});

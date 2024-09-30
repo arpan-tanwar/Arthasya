@@ -18,7 +18,9 @@ function Home() {
             in one platform.
           </p>
           <div className="flex justify-center space-x-4">
-            <Button size="lg">Get Started</Button>
+            <Link to="/signup">
+              <Button size="lg">Get Started</Button>
+            </Link>
             <Link to="/about">
               <Button variant="outline" size="lg">
                 Learn More
@@ -179,7 +181,9 @@ function Home() {
             Join thousands of traders who have already discovered the Arthasya
             advantage.
           </p>
-          <Button size="lg">Create Your Free Account</Button>
+          <Link to="/signup">
+            <Button size="lg">Create Your Free Account</Button>
+          </Link>
         </section>
       </div>
     </>
