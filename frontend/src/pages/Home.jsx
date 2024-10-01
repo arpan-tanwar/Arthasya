@@ -167,7 +167,7 @@ function Home() {
               secoondContent={`- Vishal, Novice Investor`}
             />
             <CardWrapperUser
-              firstContent={`"The security features of TradePro give me peace of mind. I can trade confidently knowing my investments are protected."`}
+              firstContent={`"The security features of  give me peace of mind. I can trade confidently knowing my investments are protected."`}
               secoondContent={`- Arpan, Long-term Investor`}
             />
           </div>

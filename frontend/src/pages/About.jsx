@@ -142,11 +142,11 @@ function About() {
 
       <section className="text-center">
         <h2 className="text-3xl font-semibold mb-4">
-          Join the TradePro Revolution
+          Join the Arthasya Revolution
         </h2>
         <p className="mb-8 max-w-2xl mx-auto">
           Be part of the future of trading. Whether you're a seasoned investor
-          or just starting out, TradePro has the tools and resources you need to
+          or just starting out, Arthasya has the tools and resources you need to
           succeed in the financial markets.
         </p>
         <Link to="/signup">
