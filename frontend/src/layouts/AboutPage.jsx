@@ -9,7 +9,6 @@ function AboutPage() {
       <br />
       <About />
       <br />
-
       <Footer />
     </>
   );
