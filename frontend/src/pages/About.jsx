@@ -6,6 +6,7 @@ import placeholder from "../assets/placeholder.svg";
 import photo from "../assets/photo.jpg";
 import CardWrapperInfo from "@/components/CardWrapperInfo";
 import OurMission from "@/components/OurMission";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -148,7 +149,9 @@ function About() {
           or just starting out, TradePro has the tools and resources you need to
           succeed in the financial markets.
         </p>
-        <Button size="lg">Get Started Today</Button>
+        <Link to="/signup">
+          <Button size="lg">Get Started Today</Button>
+        </Link>
       </section>
     </div>
   );
