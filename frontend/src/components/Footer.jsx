@@ -1,14 +1,7 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Youtube,
-  Github,
-} from "lucide-react";
+import { Twitter, Instagram, Linkedin, Github } from "lucide-react";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -26,9 +19,6 @@ function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link to="/" className="text-muted-foreground hover:text-primary">
-                <Facebook size={20} />
-              </Link>
-              <Link to="/" className="text-muted-foreground hover:text-primary">
                 <Twitter size={20} />
               </Link>
               <Link to="/" className="text-muted-foreground hover:text-primary">
@@ -36,9 +26,6 @@ function Footer() {
               </Link>
               <Link to="/" className="text-muted-foreground hover:text-primary">
                 <Linkedin size={20} />
-              </Link>
-              <Link to="/" className="text-muted-foreground hover:text-primary">
-                <Youtube size={20} />
               </Link>
               <Link to="/" className="text-muted-foreground hover:text-primary">
                 <Github size={20} />
