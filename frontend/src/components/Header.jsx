@@ -45,6 +45,18 @@ function Header() {
               Support
             </Button>
           </Link>
+          <Link to="/dashboard">
+            <Button
+              variant="link"
+              className={
+                useLocation().pathname === "/dashboard"
+                  ? "text-base underline"
+                  : "text-base"
+              }
+            >
+              Dashboard
+            </Button>
+          </Link>
         </div>
         <div>
           <Link to="/login" className="mr-1">
