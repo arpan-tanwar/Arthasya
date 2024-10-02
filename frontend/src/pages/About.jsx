@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Users, Shield, BarChart } from "lucide-react";
 import placeholder from "../assets/placeholder.svg";
 import photo from "../assets/photo.jpg";

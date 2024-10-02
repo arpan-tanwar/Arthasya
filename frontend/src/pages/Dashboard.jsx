@@ -1,18 +1,7 @@
 import DashCard from "@/components/DashCard";
 import DashTable from "@/components/DashTable";
-import {
-  BarChart3,
-  Bell,
-  CreditCard,
-  DollarSign,
-  Download,
-  LineChart,
-  LogOut,
-  Settings,
-  User,
-  Wallet,
-} from "lucide-react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { BarChart3, DollarSign, LineChart, Wallet } from "lucide-react";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from "react";
 
 function Dashboard() {

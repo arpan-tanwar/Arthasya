@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 
-function CardWrapperUser({ firstContent, secoondContent }) {
+function CardWrapperReview({ firstContent, secoondContent }) {
   return (
     <>
       <Card>
@@ -13,4 +13,4 @@ function CardWrapperUser({ firstContent, secoondContent }) {
   );
 }
 
-export default CardWrapperUser;
+export default CardWrapperReview;

@@ -109,14 +109,6 @@ function Footer() {
                   to="/"
                   className="text-muted-foreground hover:text-primary"
                 >
-                  API Documentation
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/"
-                  className="text-muted-foreground hover:text-primary"
-                >
                   Careers
                 </Link>
               </li>

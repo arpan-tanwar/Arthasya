@@ -35,3 +35,15 @@ export const signupSchema = z.object({
     message: "Password must be at least 5 characters.",
   }),
 });
+
+export const profileInfoSchema = z.object({
+  name: z.string().min(2, {
+    message: "Name must be at least 2 characters",
+  }),
+  email: z.string().email({
+    message: "Please enter a valid email address",
+  }),
+  bio: z.string().min(5, {
+    message: "Bio must be at least 5 characters",
+  }),
+});

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import CardWrapperInfo from "@/components/CardWrapperInfo";
-import CardWrapperUser from "@/components/CardWrapperUser";
+import CardWrapperReview from "@/components/CardWrapperReview";
 import { CheckCircle, TrendingUp, Shield, BarChart2 } from "lucide-react";
 import placeholder from "../assets/placeholder.svg";
 import KeyFeatures from "@/components/KeyFeatures";
@@ -158,15 +158,15 @@ function Home() {
             What Our Users Say
           </h2>
           <div className="grid md:grid-cold-3 gap-8">
-            <CardWrapperUser
+            <CardWrapperReview
               firstContent={`"Arthasya has revolutionized my trading experience. The real-time data and analytics have helped me make more informed decisions."`}
               secoondContent={`- Updesh, Day Trader`}
             />
-            <CardWrapperUser
+            <CardWrapperReview
               firstContent={`"As a beginner, I found Arthasya's educational resources invaluable. The platform is intuitive and has helped me gain confidence in trading."`}
               secoondContent={`- Vishal, Novice Investor`}
             />
-            <CardWrapperUser
+            <CardWrapperReview
               firstContent={`"The security features of  give me peace of mind. I can trade confidently knowing my investments are protected."`}
               secoondContent={`- Arpan, Long-term Investor`}
             />

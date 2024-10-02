@@ -5,6 +5,7 @@ import LoginPage from "./layouts/LoginPage";
 import SignUpPage from "./layouts/SignUpPage";
 import NotFoundPage from "./layouts/NotFoundPage";
 import DashboardPage from "./layouts/DashboardPage";
+import ProfilePage from "./layouts/ProfilePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollReset from "./utils/ScrollReset";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="*" element={<NotFoundPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/user" element={<ProfilePage />} />
         </Routes>
       </ScrollReset>
     </BrowserRouter>
