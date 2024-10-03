@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Link } from "react-router-dom";
 import avatar from "@/assets/avatar.jpg";
 import { LogOut, Mail, Phone, Shield } from "lucide-react";
 
@@ -43,10 +44,12 @@ function CardUser() {
         </div>
       </CardContent>
       <CardFooter>
-        <Button variant="outline" className="w-full">
-          <LogOut className="mr-2 h-4 w-4" />
-          Log out
-        </Button>
+        <Link to="/">
+          <Button variant="outline" className="w-full">
+            <LogOut className="mr-2 h-4 w-4" />
+            Log out
+          </Button>
+        </Link>
       </CardFooter>
     </Card>
   );

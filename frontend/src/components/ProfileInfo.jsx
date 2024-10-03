@@ -28,7 +28,7 @@ function ProfileInfo() {
     resolver: zodResolver(profileInfoSchema),
     defaultValues: {
       name: "John Doe",
-      email: "john.doe@gmail.com",
+      email: "john.doe@example.com",
       bio: "Passionate trader with 5 years of experience in stocks and cryptocurrencies.",
     },
   });

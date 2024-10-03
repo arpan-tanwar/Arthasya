@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ProfileTabAccount from "./ProfileTabAccount";
 import ProfileTabSecurity from "./ProfileTabSecurity";
+import ProfileTabNotification from "./ProfileTabNotification";
 
 function ProfileTab() {
   return (
@@ -15,6 +16,9 @@ function ProfileTab() {
       </TabsContent>
       <TabsContent value="security">
         <ProfileTabSecurity />
+      </TabsContent>
+      <TabsContent value="notifications">
+        <ProfileTabNotification />
       </TabsContent>
     </Tabs>
   );
