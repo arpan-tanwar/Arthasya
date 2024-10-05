@@ -1,17 +1,5 @@
 import { Link } from "react-router-dom";
-import {
-  Bell,
-  ChevronLeft,
-  Edit2,
-  Key,
-  Lock,
-  LogOut,
-  Mail,
-  Phone,
-  Save,
-  Shield,
-  User,
-} from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 import CardUser from "@/components/CardUser";
 import ProfileInfo from "@/components/ProfileInfo";
 import ProfileTab from "@/components/ProfileTab";
