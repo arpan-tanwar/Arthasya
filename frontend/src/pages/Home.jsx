@@ -66,8 +66,7 @@ function Home() {
                   <div>
                     <h3 className="font-semibold mb-1">Create an Account</h3>
                     <p>
-                      Sign up for free and complete our simple verification
-                      process.
+                      Sign up for free and complete our verification process.
                     </p>
                   </div>
                 </li>
